@@ -1,0 +1,35 @@
+spring:
+  eureka:
+    client:
+      defaultZone: http://localhost:8761/eureka
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  datasource:
+    url: jdbc:postgresql://postgresql:5432/CurrencyDB
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+
+github:
+  client-id: github-id
+  client-secret: github-secret
+
+facebook:
+  client-id: facebook-id
+  client-secret: facebook-secret
+
+google:
+  client-id: google-id
+  client-secret: google-secret
+
+front:
+  redirect-uri:
+
+
+
+
