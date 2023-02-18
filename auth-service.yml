@@ -8,7 +8,7 @@ spring:
       filter:
         enabled: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/CurrencyDB
+    url: jdbc:postgresql://postgresql:5432/CurrencyDB
     username: root
     password: root
     driver-class-name: org.postgresql.Driver
