@@ -26,5 +26,5 @@ auth-service:
     uri: http://localhost:9001/auth/check
 
 currency-service:
-  uri: http://localhost:8080/currency/rate/
+  uri: http://api-gateway-service:8080/currency/rate/
 
