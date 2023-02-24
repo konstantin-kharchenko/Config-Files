@@ -32,8 +32,8 @@ lifetime:
     token: 90
 
 github:
-  client-id: github-id
-  client-secret: github-secret
+  client-id: 92ac19900c1eca5dbd0b
+  client-secret: 31a3f7af3df7df97bff937f617e9e05071f5170a
   register:
     uri: http://localhost:8083/registration/github
 
