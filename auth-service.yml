@@ -35,13 +35,13 @@ github:
   client-id: 92ac19900c1eca5dbd0b
   client-secret: 31a3f7af3df7df97bff937f617e9e05071f5170a
   register:
-    uri: http://localhost:8090/registration/github
+    uri: http://registration-service:8090/registration/github
 
 facebook:
   client-id: facebook-id
   client-secret: facebook-secret
   register:
-    uri: http://localhost:8090/registration/facebook
+    uri: http://registration-service:8090/registration/facebook
 
 google:
   client-id: google-id
