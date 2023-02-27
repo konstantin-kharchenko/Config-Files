@@ -23,7 +23,7 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 auth-service:
   check:
-    uri: lb://auth-service
+    uri: http://auth-service:9001/auth/check
 
 currency-service:
   uri: http://api-gateway-service:8080/currency/rate/
