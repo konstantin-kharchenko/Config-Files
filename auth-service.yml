@@ -35,13 +35,13 @@ github:
   client-id: github-id
   client-secret: github-secret
   register:
-    uri: http://registration-service:8090/registration/github
+    uri:  http://api-gateway-service:8080/registration/github
 
 facebook:
   client-id: facebook-id
   client-secret: facebook-secret
   register:
-    uri: http://registration-service:8090/registration/facebook
+    uri:  http://api-gateway-service:8080/registration/facebook
 
 google:
   client-id: google-id
