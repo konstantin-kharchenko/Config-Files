@@ -25,6 +25,6 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 auth-service:
   check:
-    uri: http://localhost:9000/auth/check
+    uri:  http://api-gateway-service:8080/auth/check
 
 
