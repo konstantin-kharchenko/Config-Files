@@ -14,8 +14,6 @@ spring:
   jpa:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
-  liquibase:
-    change-log: db/changelog/db-changelog-master.xml
   kafka:
     producer:
       bootstrap-servers: kafka:19092
