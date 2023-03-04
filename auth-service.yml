@@ -25,9 +25,9 @@ jwt:
 
 lifetime:
   access:
-    token: 1
+    token: 180
   refresh:
-    token: 120
+    token: 240
 
 github:
   client-id: github-id
