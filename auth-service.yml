@@ -30,8 +30,8 @@ lifetime:
     token: 240
 
 github:
-  client-id: github-id
-  client-secret: github-secret
+  client-id: 92ac19900c1eca5dbd0b
+  client-secret: 4a53a01f216a4d72b64dc8d1f989081d874c563c
   register:
     uri:  http://api-gateway-service:8080/registration/github
 
