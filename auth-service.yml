@@ -25,7 +25,7 @@ jwt:
 
 lifetime:
   access:
-    token: 180
+    token: 1
   refresh:
     token: 240
 
