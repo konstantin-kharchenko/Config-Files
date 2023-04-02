@@ -36,8 +36,8 @@ github:
     uri:  http://api-gateway-service:8080/registration/github
 
 facebook:
-  client-id: facebook-id
-  client-secret: facebook-secret
+  client-id: 1272663283651827
+  client-secret: 8cbfb6671818eb5f12ebaf4237f05f42
   register:
     uri:  http://api-gateway-service:8080/registration/facebook
 
