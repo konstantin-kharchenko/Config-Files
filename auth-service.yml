@@ -30,14 +30,14 @@ lifetime:
     token: 240
 
 github:
-  client-id: 92ac19900c1eca5dbd0b
-  client-secret: 4a53a01f216a4d72b64dc8d1f989081d874c563c
+  client-id: client-id
+  client-secret: client-secret
   register:
     uri:  http://api-gateway-service:8080/registration/github
 
 facebook:
-  client-id: 1272663283651827
-  client-secret: 8cbfb6671818eb5f12ebaf4237f05f42
+  client-id: client-id
+  client-secret: client-secret
   register:
     uri:  http://api-gateway-service:8080/registration/facebook
 
@@ -46,8 +46,8 @@ google:
   client-secret: google-secret
 
 code:
-  client-id: hugbuictmyg5g74t7i4mm4if4m9t7g4d4dmd4ruidsykkjtg
-  client-secret: hi8yghfm8th485htm48yhf4ym89htd4futhmy5ub5ui6b5u6ftmb5ui6fbm5iu
+  client-id: client-id
+  client-secret: client-secret
 
 front:
   redirect-uri:
